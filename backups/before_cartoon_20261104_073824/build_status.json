@@ -1,0 +1,29 @@
+{
+  "started": "2026-11-04T06:24:12.702997",
+  "td": "D:\\Application\\Anlogic\\TD_6.1.2_PH1P35_Release_155.545\\bin\\td_commands_prompt.exe",
+  "stages": {
+    "syn_1": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "D:\\All_Project\\TD_Project\\TD_Project\\reports\\syn_1.log",
+      "errors": []
+    },
+    "phy_1": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "D:\\All_Project\\TD_Project\\TD_Project\\reports\\phy_1.log",
+      "errors": []
+    },
+    "extra_post_route": {
+      "passed": true,
+      "started": "2026-11-04T06:58:52.175576",
+      "setup_wns_ns": 0.005,
+      "hold_wns_ns": -0.17,
+      "log": "D:\\All_Project\\TD_Project\\TD_Project\\reports\\recovery_extra_opt.log"
+    }
+  },
+  "new_bit_generated": true,
+  "bit_path": "D:\\All_Project\\TD_Project\\TD_Project\\build\\phy_1\\camera_to_dsi_display.bit",
+  "hardware_tested": false,
+  "note": "Generated after additional high-effort post-route optimization; hardware validation pending."
+}

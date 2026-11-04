@@ -1,0 +1,28 @@
+{
+  "scope": "feature 1 only",
+  "algorithms": [
+    "Original",
+    "Gray",
+    "Gaussian Blur",
+    "Binary",
+    "Open",
+    "Close",
+    "Sobel Edge",
+    "Contour Extract",
+    "Hole Fill"
+  ],
+  "build_started": "2026-11-04T00:53:40.831679",
+  "bit_path": "D:\\All_Project\\TD_Project\\TD_Project\\build\\phy_1\\camera_to_dsi_display.bit",
+  "bit_generated": "2026-11-04T01:16:38.327438",
+  "bit_sha256": "0aff96d1a8f008e2372f08fa026542de9225bfde25d079a0ddd745ca41993de2",
+  "source_sha256": {
+    "user_source/hdl_source/image_correction.v": "b6ec6af27a8423902b3451bfbf6e492ce804d82d8f1b06914c891f784b8e485b",
+    "user_source/hdl_source/mixer.v": "353128b859baa892a6fb9e97a0945f6b3525407a762dc0acb015465eaddb1a62",
+    "user_source/hdl_source/design_top_wrapper.v": "6544fcff5245cf77384022bb359a8c23f4f3505365b8b394dedfefb3d33173f9",
+    "user_source/ip_source/blk_mem_gen_awb_delay_signal/blk_mem_gen_awb_delay_signal.v": "68f492e44c3b811ce744802e49ec9cb62e60f30b6ca6129e35930215fb884676"
+  },
+  "setup_wns_ns": 0.014,
+  "hold_wns_ns": -0.208,
+  "timing_closed": false,
+  "hardware_tested": false
+}

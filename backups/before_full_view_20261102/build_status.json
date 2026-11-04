@@ -1,0 +1,37 @@
+{
+  "started": "2026-11-02T00:56:04.207564",
+  "td": "E:\\Anlogic\\TD_6.1.2_PH1P35_Release_155.545\\bin\\td_commands_prompt.exe",
+  "stages": {
+    "syn_1": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "E:\\2026FPGA\\TD_Project\\reports\\syn_1.log",
+      "errors": []
+    },
+    "phy_1": {
+      "passed": true,
+      "exit_code": 0,
+      "log": "E:\\2026FPGA\\TD_Project\\reports\\phy_1.log",
+      "errors": []
+    }
+  },
+  "new_bit_generated": true,
+  "bit_path": "E:\\2026FPGA\\TD_Project\\build\\phy_1\\camera_to_dsi_display.bit",
+  "hardware_tested": false,
+  "note": "New bit generated successfully. Hold timing violations remain; hardware not tested.",
+  "bit_metadata": {
+    "bytes": 1789539,
+    "modified": "2026-11-02T01:00:39.134510",
+    "sha256": "041d4ba98a746bd83b4101652939504dddd26d7b57722a49f97d57c3bd2097fb"
+  },
+  "timing_review": {
+    "setup_wns_ns": 0.034,
+    "setup_tns_ns": 0,
+    "hold_wns_ns": -0.217,
+    "hold_tns_ns": -4.302,
+    "hold_violated_endpoints": 124,
+    "sta_coverage_percent": 95.69,
+    "timing_closed": false,
+    "report": "E:\\2026FPGA\\TD_Project\\build\\phy_1\\camera_to_dsi_display_pr.timing"
+  }
+}
